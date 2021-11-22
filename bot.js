@@ -1,6 +1,6 @@
 
-/* Copyright (C) 2020 Kavishka Sandaruwan
-RECODDED BY KAVISHKA
+/* Copyright (C) 2020 Queen Alexa
+RECODDED BY En-Cuzier
 */
 
 const os = require("os");
@@ -95,7 +95,7 @@ async function whatsAsena () {
     })    
 
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('⦁═Queen 👸 Alexa═⦁')}${chalk.blue.bold('Bot')}
+        console.log(`${chalk.green.bold('Queen')}${chalk.blue.bold('Alexa')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
     });
@@ -133,8 +133,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         });
 
         console.log(
-            chalk.green.bold('⦁═Queen 👸 Alexa═⦁ 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 ' + config.WORKTYPE + ' 𝚗𝚘𝚠 👻'));
-            await conn.sendMessage(conn.user.jid, "⦁═Queen 👸 Alexa═⦁ ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
+            chalk.green.bold('*⦁◊═⦁QUEEN 👸 ALEXA⦁═◊⦁* ᴡᴏʀᴋɪɴɢ ' + config.WORKTYPE + ' ɴᴏᴡ🥳'));
+            await conn.sendMessage(conn.user.jid, "*⦁◊═⦁QUEEN 👸 ALEXA⦁═◊⦁* ɪꜱ ᴀᴄᴛɪᴠᴇ ɴᴏᴡ", MessageType.text);
             await conn.sendMessage(conn.user.jid, "``` WORKING " + config.WORKTYPE + "```" , MessageType.text);
     });
     
@@ -242,8 +242,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '__⦁═Queen 👸 Alexa═⦁BOT_☠☠_[error] ' +
-                                    '\n\n*👻 ' + error + '*\n'
+                                await conn.sendMessage(conn.user.jid, '*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n*⦁◊═⦁QUEEN ⛔ ALEXA⦁═◊⦁* ' +
+                                    '\n\n*👾 ' + error + '*\n*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*'
                                     , MessageType.text);
                             }
                         }
